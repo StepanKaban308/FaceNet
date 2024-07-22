@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-color: #F2F2F2;">
+    <h1 class="logo">FaceNet</h1>
+    <form class="register">
+        <h1 class="main-text">Создать аккаунт</h1>
+        <p class="second-text">Легко и быстро</p>
+        <hr style="background-color: black;">
+        <input name="имя" class="small-button" type="text" placeholder="Имя" required pattern="[А-Яа-яЁё]+">
+        <input name="фамилия" class="small-button" type="text" placeholder="Фамилия" required pattern="[А-Яа-яЁё]+">
+        <input name="почта" class="large-button" type="email" placeholder="Почта" required pattern="^\S+@\S+\.\S+$">
+        <input name="пароль" class="large-button" type="password" placeholder="Пароль" required pattern="[0-9]{5,10}">
+        <p class="small-text">Дата рождения</p>
+        <input type="date" value="1" class="large-button">
+        <p class="small-text">Пол</p>
+
+        <label for="male"><input type="radio" name="gender" id="male" value="мужчина">Мужчина</label>
+        <label for="female"><input type="radio" name="gender" id="female" value="женщина">Женщина</label>
+        <label for="other"><input type="radio" name="gender" id="other" value="другое">Другое</label>
+        <label for="cat"><input type="radio" name="gender" id="cat" value="кот">Кот</label>
+        <p><button type="submit" class="reg">Регистрация</button></p>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

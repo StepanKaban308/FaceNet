@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.panel {
+    background-color: white;
+    width: 228px;
+    height: 1080px;
+}
+
+.rightpanel {
+    background-color: white;
+    width: 228px;
+    height: 1080px;
+}
+
+.logo {
+    background-color: white;
+}
+
+.avatar {
+    margin-left: 25%;
+    width: 100px; 
+    height: 100px;
+    background: #2AB500;
+    border-radius: 50%;
+}
+
+.profile {
+    width: 127px;
+    height: 35px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.href {
+    font-size: 30px;
+    text-decoration: none;
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+h1 {
+    color: rgb(42, 181, 0);
+    font-family: Jockey One;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.text {
+    margin: 0;
+    font-size: 35px;
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: center;
+}
+
+.section-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-post h2 {
+    padding-left: 10px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.card-post p {
+    margin: 0;
+    font-size: 25px;
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.card-post img {
+    width: 100px;
+    height: 100px;
+    background: #2AB500;
+    border-radius: 50%;
+    border: 4px;
+}
+
+.card-post {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
