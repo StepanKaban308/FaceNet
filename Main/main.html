@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,28 +14,36 @@
 
 </head>
 <body style="background-color: #F2F2F2;">
+    <form class="post-add-form">
+            <input type="text" placeholder="Текст поста" name="text">
+            <button type="submit">Опубликовать</button>
+            <button>Отмена</button>
+    </form>
     <div class="logo">
         <h1>FaceNet</h1>
     </div>
     <div class="main">
         <div class="panel">
-            <div class="avatar">
-                <a href="../Profile/profile.html"><img style="width: 100px; height: 100px;" src="../Img/free-icon-humanoid-9980973.png"></a>
+            <div style="position: fixed;">
+                <div class="avatar">
+                    <a href="../Profile/profile.html"><img style="width: 100px; height: 100px;" src="../Img/free-icon-humanoid-9980973.png"></a>
+                </div>
+                <p style="margin-left: 25%;" class="profile">Профиль</p>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <img style="width: 60; height: 60px; margin-top: 5px;" src="../Img/free-icon-friends-8131244.png">
+                    <a class="href" href="../Friends/friends.html">Друзья</a>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <img style="width: 60; height: 60px; margin-top: 5px;" src="../Img/free-icon-money-2454274.png">
+                    <a class="href" href="../Donate/donate.html">Донат</a>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <img style="width: 60; height: 60px; margin-top: 5px;" src="../Img/free-icon-settings-600605.png">
+                    <a class="href" href="../Settings/settings.html">Настройки</a>
+                </div>
+                <button style="    margin-top: 25px; margin-left: 35px;" onclick="addPost()">Добавить пост</button>
+                <p style="margin-top: 170px; text-align: center;" class="text">FaceNet©2024</p>
             </div>
-            <p style="margin-left: 25%;" class="profile">Профиль</p>
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <img style="width: 66; height: 66px; margin-top: 5px;" src="../Img/free-icon-friends-8131244.png">
-                <a class="href" href="../Donate/donate.html">Друзья</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <img style="width: 66; height: 66px; margin-top: 5px;" src="../Img/free-icon-money-2454274.png">
-                <a class="href" href="../Donate/donate.html">Донат</a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <img style="width: 66; height: 66px; margin-top: 5px;" src="../Img/free-icon-settings-600605.png">
-                <a class="href" href="../Donate/donate.html">Настройки</a>
-            </div>
-            <p style="margin-top: 645px;" class="text">FaceNet©2024</p>
         </div>
         <section class="section-post">
             <article class="card-post">
@@ -70,9 +78,12 @@
             </article>
         </section>
         <div class="rightpanel">
-            <p class="text">Спонсор</p>
-            <img style="width: 228px;" src="../Img/image.png">
+            <div style="position: fixed;">
+                <p class="text">Спонсор</p>
+                <img style="width: 180px;" src="../Img/image.png">
+            </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

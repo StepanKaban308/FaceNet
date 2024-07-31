@@ -43,7 +43,7 @@ html, body {
     text-decoration: none;
     color: #4C4C4C;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 44px;
 }
@@ -66,10 +66,9 @@ h1 {
 
 .text {
     margin: 0;
-    font-size: 35px;
+    font-size: 15px;
     color: #4C4C4C;
     font-family: Inter;
-    font-size: 25px;
     font-weight: 300;
     line-height: 44px;
     text-align: center;
@@ -111,4 +110,24 @@ h1 {
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
+}
+
+button {
+    background-color: rgb(42, 181, 0);
+    color: white;
+    border-color: #2AB500;
+}
+
+.post-add-form {
+    position: fixed;
+    flex-direction: column;
+    top: 50%;
+    left: 45%;
+    display: none;
+    justify-content: center;
+}
+
+.postLogo {
+    width: 100px;
+    height: 100px;
 }

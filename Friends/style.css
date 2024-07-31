@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(42, 181, 0);
+    font-family: Jockey One;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 25px;
+    margin: 0;
+    margin-left: 451px;
+}
+
+img {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 90px;
+    height: 60px;
+}
+
+.text {
+    margin: 0;
+    font-size: 15px;
+    color: #4C4C4C;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 555px;
+    text-align: center;
+}
+
+.noFriends {
+    color: rgb(76, 76, 76);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 97px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+h2 {
+    width: 966px;
+    height: 194px;
+    margin-left: 621px;
+    margin-top: 200px;
+}
